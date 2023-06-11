@@ -8,11 +8,11 @@ we are getting the ticker from .xlsx file and dynamic also and scrape into the g
 
    ## api_ticker_scrape_save_gs.py - 
      
-      This file scrape all the tickers through api(localhost:4444/api<ticker> 'enter') and save it in googlespreadsheet
+      This file scrape all the tickers through api(localhost:4444/api/ticker 'enter') and save it in googlespreadsheet
 
    ## Scrape_ticker_by_api.py - 
      
-      This file scarpe ticker through api-(localhost:4444/api<ticker> 'enter') while if we pass the ticker into api and return the json response in the browser.
+      This file scarpe ticker through api-(localhost:4444/api/ticker 'enter') while if we pass the ticker into api and return the json response in the browser.
 
    ## Scrape_ticker_from_xlsx.py - 
      
