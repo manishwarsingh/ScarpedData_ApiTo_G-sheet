@@ -1,4 +1,4 @@
-# YAHOO-finance-scarped-data
+# finance-scarped-data
 we are getting the ticker from .xlsx file and dynamic also and scrape into the google sheet.
 
 ## Get Started
@@ -18,7 +18,7 @@ we are getting the ticker from .xlsx file and dynamic also and scrape into the g
      
       In this file we can scrape ticker and load from the xlsx file and scrape it all and save it into the googlespreadsheet and as well as return the son response in the browser.
 
-   ## XLSX - xlsx file contanis the name of the ticker. 
+   ## XLSX - Create .xlsx file and it contanis the name of the ticker. 
 
 #### Windows
 
