@@ -16,7 +16,7 @@ credentials = ServiceAccountCredentials.from_json_keyfile_name('credentials.json
 gc = gspread.authorize(credentials)
 
 # Load the tickers from the Excel sheet
-tickers_df = pd.read_excel('iShares_Biotechnology_ETF___IBB.xlsx')
+tickers_df = pd.read_excel('file.xlsx')
 tickers_list = tickers_df['Ticker'].tolist()
 
 # Function to scrape executive information from a given URL using Beautiful Soup and Selenium
@@ -73,8 +73,8 @@ def scrape_executives(url):
         pass
 
 # Update Google Sheet with scraped information
-# spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1oaeA2YoFXpysC_eZiPne-joiMJ9K-dcy2LX7LVkAQ2g/edit#gid=0'
-spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1oaeA2YoFXpysC_eZiPne-joiMJ9K-dcy2LX7LVkAQ2g/edit#gid=1756423001'
+# spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1oaeA2/edit#gid=0'
+spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1oaeA2YoF2LX7LVkAQ2g/edit#gid=1756423001'
 worksheet_name = 'Sheet3'
 
 # Open the Google Sheet
